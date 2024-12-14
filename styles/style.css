@@ -91,7 +91,7 @@ body{
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
-.imagem{
+.image{
     width: 50%;
 }
 .footer{
@@ -119,4 +119,14 @@ body{
 .apresentacao__conteudo{
     width: auto;
 }
+}
+
+@media (max-width:500px){
+    .cabecalho__menu{
+        gap: 40px;
+    }
+    .apresentacao__links__link {
+        font-size: 1.2rem;
+    }
+
 }
